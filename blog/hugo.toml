@@ -1,0 +1,69 @@
+baseurl = "http://www.example.com/"
+title = "Vishnu Vardhan Sai Lanka"
+theme = "coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Vishnu Vardhan Sai Lanka"
+  info = "ML Engineer"
+  description = "Vishnu's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "pic.jpg"
+  #gravatar = "vardhanvishnu691@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "mailto:vardhanvishnu691@gmail.com"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"  # Assuming the Font Awesome class for LinkedIn
+  weight = 4  # Adjust the weight according to the order you want
+  url = "https://www.linkedin.com/in/vishnu-vardhan-sai-lanka-26316016b/"  # Replace with your LinkedIn profile URL
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/vishnu_lanka"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/VishnuVardhanSaiLanka/"
+
+
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
