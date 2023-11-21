@@ -1,6 +1,0 @@
-[submodule "themes/coder"]
-	path = blog/themes/coder
-	url = https://github.com/VishnuVardhanSaiLanka/coder.git
-[submodule "blog/themes/hugo-coder"]
-	path = blog/themes/hugo-coder
-	url = https://github.com/luizdepra/hugo-coder.git
